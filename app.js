@@ -1,5 +1,7 @@
 'use strict';
 
+var projects = [];
+
 function Projects () {
   for(var key in rawProjects) {
     this[key] = rawProjects[key];
