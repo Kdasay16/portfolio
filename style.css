@@ -1,0 +1,34 @@
+.top {
+  background-color: #94E8B4;
+}
+h1 {
+  text-align: left;
+}
+nav {
+  text-align: right;
+}
+burger{
+ float:right;
+}
+
+.bar{
+  background-color: black;
+  margin: .3em;
+  height: .4em;
+  width: 2.3em;
+}
+@media screen and (min-width: 45em){
+ .burger {
+   visibility: hidden;
+  }
+ .top-nav li {
+   display: inline;
+   margin: 1em;
+  }
+.top-nav ul {
+    display: block;
+  }
+}
+.top-nav {
+  padding: 0.1em;
+}
