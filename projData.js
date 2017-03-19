@@ -13,7 +13,7 @@ var rawProjects = [
     date: '00/00/2017',
     about: '<p>Blah blah blah talking about stuff.</p>',
     projectUrl: '',
-    preview: 'img',
+    preview: 'imgs/h-k-33441.jpg',
   },
   {
     title: 'Project Three',
