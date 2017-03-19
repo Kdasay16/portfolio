@@ -10,7 +10,7 @@ function Projects (rawProjects) {
 
 Projects.prototype.toHtml = function() {
   var $newProject = $('project.template').clone();
-  $newProject.removeClass('outline');
+  $newProject.removeClass('burger');
 
   // $newProject.find('h2').text(this.title);
   // $newProject.find('time').text(this.date);
