@@ -1,0 +1,27 @@
+img {
+  max-width: 100%;
+  margin-left: 5%;
+}
+h1 {
+  text-align: left;
+}
+nav {
+  text-align: right;
+}
+nav ul {
+  display: none;
+}
+nav:hover ul {
+  display: block;
+}
+@media only screen and (min-width: 650px){
+  nav ul {
+    display: block;
+  }
+  .icon-paragraph-justify {
+    display: none;
+  }
+}
+img #me {
+  float: right;
+}
