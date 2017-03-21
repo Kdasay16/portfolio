@@ -9,18 +9,8 @@ function Projects (rawProjects) {
 };
 
 Projects.prototype.toHtml = function() {
-  var $newProject = $('project.template').clone();
-  $newProject.removeClass('burger');
-
-  // $newProject.find('h2').text(this.title);
-  // $newProject.find('time').text(this.date);
-  // $newProject.find('').attr('href', this.projectUrl);
-  // $newProject.find('.about').append(this.about);
-  // return $newProject;
-  var source = $('#article.template').html();
+  var source = $('#project-template').html();
   var outlineRender = Handlebars.compile(source);
-
-  this.body = marked(this.body);
 
   return outlineRender(this);
 };
@@ -30,6 +20,5 @@ rawProjects.forEach(function(projectObject) {
 });
 
 projects.forEach(function(proj) {
-  $('#projects').append(proj.toHtml());
+  $('.projects').append(proj.toHtml());
 });
-// Projects();

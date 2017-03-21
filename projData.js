@@ -2,23 +2,23 @@
 
 var rawProjects = [
   {
-    title: 'Project One',
-    date: '00/00/2017',
-    about: '<p>This project was inspired by fun.</p>',
+    title: 'Fight Code',
+    date: '03/03/2017',
+    aboutProject: '<p>This project was inspired by fun.</p>',
     projectUrl: 'https://kdasay16.github.io/fight-code/',
-    preview: 'img',
+    preview: '<img src="imgs/fightcode.png">',
   },
   {
     title: 'Project Two',
     date: '00/00/2017',
-    about: '<p>Blah blah blah talking about stuff.</p>',
+    aboutProject: '<p>Blah blah blah talking about stuff.</p>',
     projectUrl: '',
-    preview: 'imgs/h-k-33441.jpg',
+    preview: '<img src= "imgs/h-k-33441.jpg">',
   },
   {
     title: 'Project Three',
     date: '00/00/2017',
-    about: '<p>More talking here</p>',
+    aboutProject: '<p>More talking here</p>',
     projectUrl: '',
     preview: 'img',
   },

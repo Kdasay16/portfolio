@@ -8,88 +8,43 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="modules.css">
+    <link rel="stylesheet" href="vendors/icon.css">
     <link rel="icon" type="image/x-icon" href="http://icons.iconarchive.com/icons/iconka/meow/48/cat-tied-icon.png">
     <script id="project-template" type="text/x-handlebars-template">
-      <article> <!--data-author="{{author}}" data-category="{{category}}">-->
-          <header>
-        <h1>{{title}}</h1>
-        <div class="weblinks">
-          <address><a href="{{projectUrl}}">Link</a></address>
-        </div>
-        <p>{{date}}</p>
-       </header>
-        </article>
-        </script>
-      </head>
-      <body>
-        <header class="top">
-          <h1>Kayla Asay</h1>
-          <nav class="top-nav">
-            <button class="hamburger"></button>
-            <div class="burger">
-              <ul>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Contact</li></a>
-              </ul>
-            </div>
-          </nav>
+      <article>
+        <header>
+          <h2>{{title}}</h2>
+          <p>{{{date}}}</p>
+          <address><a href="{{{projectUrl}}}">Onward!</a></address>
+          <p>{{{aboutProject}}}</p>
+          <p>{{{preview}}}</p>
         </header>
-        <section class="projects">{{{about}}}</section>
-          <!-- <article class ="outline"> -->
-            <!-- <div>
-              <h2>title</h2>
-              <h3>date</h3>
-            </div> -->
-            <!-- <section class="about"></section>
-          </article> -->
-        </section>
+      </article>
+    </script>
+    </head>
+    <body>
+      <header class="top">
+               <h1>Kayla Asay</h1>
+               <nav class="top-nav">
+                 <div class="icon-paragraph-justify"></div>
+                  <ul>
+                    <li><a href="file:///C:/Users/HP%20User/CodeFellows/301/portfolio/about.html">About Me</a></li>
+                    <div class="dropdown">
+                      <button class="dropbtn">Contact</button>
+                      <div class="dropdown-content">
+                        <a href="https://www.linkedin.com/in/kayladasay/">linkedIn</a>
+                        <a href="https://github.com/Kdasay16">GitHub</a>
+                      </div>
+                    </div>
+                  </ul>
+               </nav>
+             </header>
+             <section class="projects"></section>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
-        <script src="projData.js" type="text/javascript"></script>
-        <script src="app.js" type="text/javascript"></script>
+        <script src="projData.js"></script>
+        <script src="app.js"></script>
+        <script src="view.js"></script>
       </body>
     </html>
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- </head>
-  <body>
-    <header class="top">
-      <section class="heading">
-      <h1>Kayla Asay</h1>
-      <nav class="top-nav">
-        <button class="hamburger"></button>
-        <div class="burger">
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-    <section id="projects">
-      <article class ="outline">
-        <div>
-          <h2>title</h2>
-          <h3>date</h3>
-        </div>
-        <section class="about"></section>
-      </article>
-    </section>
-  </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
-    <script src="projData.js" type="text/javascript"></script>
-    <script src="app.js" type="text/javascript"></script>
-  </body>
-</html> -->
