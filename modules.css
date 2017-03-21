@@ -60,3 +60,7 @@ span.icon-github {
     border: none;
     cursor: pointer;
     margin-right: 40px;
+}
+header h2, p {
+  color: #0E917D;
+}
