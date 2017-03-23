@@ -1,6 +1,6 @@
 'use strict';
 
-var projects = [];
+const projects = [];
 
 function Projects (rawProjects) {
   for(var key in rawProjects) {
@@ -15,10 +15,11 @@ Projects.prototype.toHtml = function() {
   return outlineRender(this);
 };
 
-rawProjects.forEach(function(projectObject) {
-  projects.push(new Projects(projectObject));
-});
-
-projects.forEach(function(proj) {
-  $('.projects').append(proj.toHtml());
-});
+$.getJSON('data.json', function(response) {
+  response.forEach(function(projectObject) {
+    projects.push(new Projects(projectObject));
+  });
+  projects.forEach(function(proj) {
+    $('.projects').append(proj.toHtml());
+  });
+})
