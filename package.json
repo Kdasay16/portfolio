@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kdasay16/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Kayla Asay",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/Kdasay16/portfolio/issues"
+  },
+  "homepage": "https://github.com/Kdasay16/portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
