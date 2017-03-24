@@ -1,0 +1,17 @@
+body {
+  background-color: #F1F0CC;
+}
+img {
+  width: 50%;
+}
+.top {
+  background-color: #0E917D;
+  height: 100px;
+}
+h1 {
+  font-size: 50px;
+  text-align: left;
+}
+header h2, p {
+  color: #0E917D;
+}

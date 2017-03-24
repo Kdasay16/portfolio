@@ -1,0 +1,62 @@
+/*nav button*/
+.dropbtn {
+    background-color: #8D775F;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  color: black;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    /*padding: 12px 16px;*/
+    text-decoration: none;
+    /*display: block;*/
+}
+.dropdown-content a:active {
+  background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #94E8B4;
+}
+#me {
+  float: right;
+  height: 20%;
+}
+span.icon-linkedin  {
+  display: inline;
+  padding: 2em 1em;
+}
+span.icon-github {
+  display: inline;
+  padding: 2em 1em;
+}
+.dropdown-content li{
+  padding: 1em 0;
+}
+.about-me {
+    background-color: #8D775F;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 40px;
+}
