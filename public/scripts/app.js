@@ -3,7 +3,7 @@
 const projects = [];
 
 function Projects (rawProjects) {
-  for(var key in rawProjects) {
+  for(let key in rawProjects) {
     this[key] = rawProjects[key];
   }
 };
