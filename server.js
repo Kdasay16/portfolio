@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static('./public'));
 
 app.get('*', function(request, response) {
-  response.sendFile('/index.html', {root: '.'})
+  response.sendFile('index.html', {root: '.'})
 })
 app.listen(PORT, function() {
   console.log('It\'s ALIVE!');
