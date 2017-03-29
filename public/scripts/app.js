@@ -9,8 +9,8 @@ function Projects (rawProjects) {
 };
 
 Projects.prototype.toHtml = function() {
-  var source = $('#project-template').html();
-  var outlineRender = Handlebars.compile(source);
+  let source = $('#project-template').html();
+  let outlineRender = Handlebars.compile(source);
 
   return outlineRender(this);
 };
